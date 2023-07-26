@@ -1,0 +1,12 @@
+country_list=['Maldive','Singapoure','China', 'USA', 'Cuba']
+print(country_list)
+print(sorted(country_list))
+print(country_list)
+print(sorted (country_list , reverse=True))
+print(country_list)
+country_list.reverse()
+print(country_list)
+country_list.sort()
+print(country_list)
+country_list.sort(reverse=True)
+print(country_list)

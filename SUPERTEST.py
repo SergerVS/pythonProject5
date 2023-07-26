@@ -1,0 +1,37 @@
+film_list=['unforgiven', 'forsage', 'transformers','rainman','venom','spiderman']
+print(film_list[-1].upper())
+message=('My favorite film is '+film_list[-1].title()+'!')
+print(message)
+message_2=('I  hate the film'+' '+film_list[-3].upper()+' '+'because it,s -boring')
+print(message_2)
+film_list[0]='the call'
+print(film_list)
+film_list[-1]='bumblby'
+print(film_list)
+film_list.append('true lie')
+print(film_list)
+film_list.insert(-1,'nu pogodi')
+film_list.insert(-1,'open sea')
+print(film_list)
+del film_list[-1]
+print(film_list)
+film_list_popped=film_list.pop(0)
+print(film_list_popped)
+film_list_popped=film_list.pop(-1)
+print(film_list_popped)
+film_list.remove('rainman')
+print(film_list)
+fish_list=[]
+print(fish_list)
+fish_list.append('catfish')
+fish_list.insert(0,'pike')
+fish_list.append('salmon')
+fish_list.insert(-1,'dolphin')
+print(fish_list)
+del fish_list[0]
+print(fish_list)
+fish_list_popped=fish_list.pop(-1)
+print(fish_list_popped)
+fish_list.remove('dolphin')
+print(fish_list)
+len(fish_list)
